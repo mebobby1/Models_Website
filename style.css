@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://i.ibb.co/HtfMdJS/bg.webp);
+    margin: 0px;
+    height: 110vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+header{
+   
+    display: flex;
+    /* margin: 5px; */
+    padding: 20px;
+    justify-content: center;
+}
+.logo{
+    
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 25px;
+}
+.nav{
+    
+    padding: 5px;
+ 
+}
+a{
+    text-decoration:none ;
+    color: white;
+    padding: 6px;
+    margin: 33px;
+    transition: all 0.5s;
+}
+a:hover{
+    color: salmon;
+}
+.logo:hover{
+    color: salmon;
+}
+.heading{
+    color: salmon;
+    font-size: 70px;
+    position: relative;
+    top: 60px;
+    left: 66px;
+    width: 500px;
+}
+.heading+h3{
+    position: relative;
+    /* top: 159px; */
+    left: 80px;
+    font-size: 40px;
+    width: 400px;
+    text-align: center;
+    }
+    .heading+h3+p{
+        position: relative;
+        left: 150px;
+        width: 400px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* border: 2px solid white; */
+    }
+    .btn{
+        width: 100px;
+    padding: 10px;
+    position: relative;
+    left: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s;
+    }
+    .btn:hover{
+        color: rgb(252, 252, 252);
+        background-color: salmon;
+       
+    }
